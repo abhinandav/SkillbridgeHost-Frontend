@@ -9,7 +9,7 @@ import { CiCircleInfo } from "react-icons/ci";
 
 
 function TeacherCourseView() {
-    const baseURL = "https://skillbridge.store";
+    const baseURL = "https://learning.toeman.online";
     const navigate=useNavigate()
     const [course, setCourse] = useState({
         course_name:'',

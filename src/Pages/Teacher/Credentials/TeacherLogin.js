@@ -21,7 +21,7 @@ const TeacherLogin = () => {
     const [passwordError, setPasswordError] = useState('')
     const [loginError, setLoginError] = useState('')
     const [message,setMessage]=useState(null)
-    const baseURL='https://skillbridge.store'
+    const baseURL='https://learning.toeman.online'
 
 
     useEffect(() => {

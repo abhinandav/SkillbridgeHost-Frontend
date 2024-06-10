@@ -2,7 +2,7 @@ import {jwtDecode} from "jwt-decode";
 import axios from 'axios';
 
 
-const baseURL = 'https://skillbridge.store';
+const baseURL = 'https://learning.toeman.online';
 
 const updateAdminToken = async () => {
   const refreshToken = localStorage.getItem("refresh");

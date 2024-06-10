@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 
 function MessageSidebar() {
     
-  const baseURL = "https://skillbridge.store";
+  const baseURL = "https://learning.toeman.online";
 
   const [users, setUsers] = useState([]);
 

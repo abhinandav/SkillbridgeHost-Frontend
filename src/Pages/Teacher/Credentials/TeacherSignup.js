@@ -4,7 +4,7 @@ import axios from 'axios';
 import { useSelector } from 'react-redux';
 
 const TeacherSignup = () => {
-  const baseURL = 'https://skillbridge.store';
+  const baseURL = 'https://learning.toeman.online';
   const navigate = useNavigate();
   const [usernameError, setUsernameError] = useState('')
   const [emailError, setEmailError] = useState('')

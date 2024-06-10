@@ -7,7 +7,7 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const UserSignUp = () => {
-  const baseURL = 'https://skillbridge.store';
+  const baseURL = 'https://learning.toeman.online';
   const navigate = useNavigate();
   const [usernameError, setUsernameError] = useState('');
   const [emailError, setEmailError] = useState('');
@@ -220,7 +220,7 @@ export default UserSignUp;
 // const UserSignUp = () => {
 
 
-//   const baseURL='https://skillbridge.store/'
+//   const baseURL='https://learning.toeman.online'
 //   const navigate=useNavigate()
 //   const [usernameError, setUsernameError] = useState('')
 //   const [emailError, setEmailError] = useState('')

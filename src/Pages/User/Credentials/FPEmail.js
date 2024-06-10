@@ -17,7 +17,7 @@ function FPEmails() {
         
         try {
           const response = await axios.post(
-            "https://skillbridge.store/api/accounts/forgotpassword/",
+            "https://learning.toeman.online/api/accounts/forgotpassword/",
             {
               email: email,
             }

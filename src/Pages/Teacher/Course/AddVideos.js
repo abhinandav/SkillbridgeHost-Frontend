@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 function AddVideos() {
-  const baseURL='https://skillbridge.store';
+  const baseURL='https://learning.toeman.online';
   const { id } = useParams();
   const navigate = useNavigate();
   const [nameError,setNameError]=useState('')

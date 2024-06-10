@@ -10,7 +10,7 @@ function ForgotOtp() {
     const [otpValues, setOtpValues] = useState(['', '', '', '']);
     const[error,setError]=useState([])
     const inputRefs = useRef(Array.from({ length: 4 }, () => React.createRef()));
-    const baseURL='https://skillbridge.store'
+    const baseURL='https://learning.toeman.online'
     const navigate = useNavigate();
     const registeredEmail = localStorage.getItem('registeredEmail')
     const user_id = localStorage.getItem('user_id')

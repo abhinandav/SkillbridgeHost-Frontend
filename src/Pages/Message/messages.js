@@ -7,7 +7,7 @@ import msgimg from '../../Images/msg1.jpg'
 import loadingAnimation from '../../Images/loading animation2.json'
 
 function Messages() {
-    const baseURL = "https://skillbridge.store";
+    const baseURL = "https://learning.toeman.online";
     const token = localStorage.getItem('access');
 
     const { orderId } = useParams()
@@ -30,7 +30,7 @@ function Messages() {
     useEffect(() => {
         if (orderId) {
             console.log(orderId);
-            const wsURL = `wss://skillbridge.store/ws/socket-server/${orderId}/`;
+            const wsURL = `wss://learning.toeman.online/ws/socket-server/${orderId}/`;
             console.log(wsURL);
             connectToWebSocket(wsURL);
             return () => {

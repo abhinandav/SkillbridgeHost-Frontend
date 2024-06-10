@@ -18,7 +18,7 @@ function ChangePasswordPage() {
     }, [location]);
 
     const decodeHash = (hashValue) => {
-        axios.get(`https://skillbridge.store/api/accounts/decode_hash?hash=${hashValue}/`)
+        axios.get(`https://learning.toeman.online/api/accounts/decode_hash?hash=${hashValue}/`)
             .then(response => {
                 const userId = response.data.userId;
                 setUserId(userId);

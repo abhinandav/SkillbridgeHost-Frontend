@@ -5,7 +5,7 @@ import ProfileSidebar from './ProfileSidebar';
 
 const TeacherProfileCourseList = () => {
   const token = localStorage.getItem('access');
-  const baseURL = "https://skillbridge.store";
+  const baseURL = "https://learning.toeman.online";
   const [courses, setCourses] = useState([]);
 
   const fetchCourses = () => {

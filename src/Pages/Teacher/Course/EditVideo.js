@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 function EditVideo() {
-  const baseURL='https://skillbridge.store';
+  const baseURL='https://learning.toeman.online';
   const { id } = useParams();
   const navigate = useNavigate();
   const [uploadProgress, setUploadProgress] = useState(0);

@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 const TeacherCourseList = () => {
   const token=localStorage.getItem('access')
-  const baseURL = "https://skillbridge.store";
+  const baseURL = "https://learning.toeman.online";
   const [courses, setCourses] = useState([]);
   const [isLoading, setIsLoading] = useState(true); 
 

@@ -8,7 +8,7 @@ function FPotp() {
     const [otpValues, setOtpValues] = useState(['', '', '', '']);
     const[error,setError]=useState([])
     const inputRefs = useRef(Array.from({ length: 4 }, () => React.createRef()));
-    const baseURL='https://skillbridge.store'
+    const baseURL='https://learning.toeman.online'
     const navigate = useNavigate();
     const registeredEmail = localStorage.getItem('registeredEmail')
     console.log(registeredEmail);

@@ -9,7 +9,7 @@ import { FaDownload } from "react-icons/fa";
 
 
 const Certificate = () => {
-    const baseURL = "https://skillbridge.store";
+    const baseURL = "https://learning.toeman.online";
   const authentication_user=useSelector(state=>(state.authentication_user))
   const {id}=useParams()
   const [detail,setDetail]=useState({'course_name':null,'user_name':null})

@@ -7,7 +7,7 @@ import { FaDownload } from "react-icons/fa";
 
 
 const Invoice = () => {
-    const baseURL = "https://skillbridge.store";
+    const baseURL = "https://learning.toeman.online";
     const token = localStorage.getItem('access');
     const navigate=useNavigate()
     const [invoice, setInvoice] = useState();

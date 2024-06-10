@@ -5,7 +5,7 @@ import Sidebar from '../../Components/Admin/Sidebar';
 import AdminHeader from '../../Components/Admin/AdminHeader';
 
 function AdminAcceptedCourseView() {
-    const baseURL = "https://skillbridge.store";
+    const baseURL = "https://learning.toeman.online";
     const token = localStorage.getItem('access');
     const [selectedVideo, setSelectedVideo] = useState(null);
     

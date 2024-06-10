@@ -8,7 +8,7 @@ import * as XLSX from 'xlsx';
 
 function SalesReport() {
   const [ordersData, setOrdersData] = useState({ orders_today_count: 0,course_count:0,users_count:0,total_earnings:0, order_list: [] });
-  const baseURL = "https://skillbridge.store";
+  const baseURL = "https://learning.toeman.online";
   const [processing, setProcessing] = useState(false);
 
   const handleReportData = (data) => {

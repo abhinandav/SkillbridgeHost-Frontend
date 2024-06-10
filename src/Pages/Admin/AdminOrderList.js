@@ -13,7 +13,7 @@ function AdminOrderList() {
     totalPages: 1,
     pageSize: 10 // You can adjust the page size as needed
   });
-  const baseURL = "https://skillbridge.store";
+  const baseURL = "https://learning.toeman.online";
 
   const fetchOrders = (page = 1) => {
     axios.get(`${baseURL}/adminapp/orders/`, {

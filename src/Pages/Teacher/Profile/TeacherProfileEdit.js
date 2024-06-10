@@ -14,7 +14,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 const TeacherProfileEdit = () => {
-    const baseUrl = 'https://skillbridge.store';
+    const baseUrl = 'https://learning.toeman.online';
     const token = localStorage.getItem('access');
     const dispatch = useDispatch();
     const authentication_user = useSelector(state => state.authentication_user);

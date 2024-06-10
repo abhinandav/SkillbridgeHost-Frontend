@@ -18,7 +18,7 @@ import { IoIosInformationCircleOutline } from "react-icons/io";
 
 
 function CourseView() {
-  const baseURL = "https://skillbridge.store";
+  const baseURL = "https://learning.toeman.online";
       const token = localStorage.getItem('access');
     const user_id=localStorage.getItem('userid')
     const navigate=useNavigate()

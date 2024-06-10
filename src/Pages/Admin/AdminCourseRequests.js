@@ -10,7 +10,7 @@ function AdminCourseRequests() {
   console.log('authicate', authentication_user.isAuthenticated);
   const token=localStorage.getItem('access')
 
-  const baseURL = "https://skillbridge.store";
+  const baseURL = "https://learning.toeman.online";
   const [courses, setCourses] = useState([]);
   const [rcourses, setRCourses] = useState([]);
 

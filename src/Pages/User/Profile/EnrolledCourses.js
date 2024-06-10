@@ -4,7 +4,7 @@ import axios from 'axios';
 import ProfileSidebar from './ProfileSidebar';
 
 const EnrolledCourses = () => {
-    const baseUrl = 'https://skillbridge.store';
+    const baseUrl = 'https://learning.toeman.online';
     const [courses, setCourses] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
     const token = localStorage.getItem('access');

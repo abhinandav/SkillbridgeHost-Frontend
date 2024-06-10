@@ -10,7 +10,7 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const ProfileEdit = () => {
-    const baseUrl = 'https://skillbridge.store';
+    const baseUrl = 'https://learning.toeman.online';
     const token = localStorage.getItem('access');
     const dispatch = useDispatch();
     const authentication_user = useSelector(state => state.authentication_user);

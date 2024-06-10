@@ -3,7 +3,7 @@ import axios from 'axios'
 import {  useNavigate } from 'react-router-dom';
 
 function AddCourse() {
-    const baseURL='https://skillbridge.store'
+    const baseURL='https://learning.toeman.online'
     const token = localStorage.getItem('access');
     const navigate=useNavigate()
     const [nameError,setNameError]=useState('')
