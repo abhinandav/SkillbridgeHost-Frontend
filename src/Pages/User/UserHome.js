@@ -1,6 +1,5 @@
 import React from 'react'
 import {useSelector } from 'react-redux'
-// import UserHomeFront from './UserHomeFront'
 import UserHomeFront from './HomeDesign/UserHomeFront'
 
 

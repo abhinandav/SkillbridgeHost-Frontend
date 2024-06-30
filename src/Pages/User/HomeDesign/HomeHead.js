@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import '../userstyle.css'
 
 const line1 = "Unveil the Path to ";
 const line2 = "Limitless Possibilities...";
@@ -38,11 +38,11 @@ const Head = () => {
   return (
 
           <motion.h1
-            className="text-orange-600 max-w-2xl mb-4 text-4xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl"
+            className="home-head text-orange-600 max-w-2xl mb-4 text-4xl font-bold leading-none tracking-tight md:text-5xl xl:text-6xl"
             initial="hidden"
             animate="visible"
           >
-            <motion.div className="inline-block" variants={container}>
+            <motion.div className="home-head-line1 inline-block" variants={container}>
               {line1.split("").map((char, index) => (
                 <motion.span key={index} variants={child}>
                   {char}
@@ -50,7 +50,7 @@ const Head = () => {
               ))}
             </motion.div>
             <br />
-            <motion.div className="inline-block" variants={container}>
+            <motion.div className="home-head-line2 inline-block" variants={container}>
               {line2.split("").map((char, index) => (
                 <motion.span key={index} variants={child}>
                   {char}

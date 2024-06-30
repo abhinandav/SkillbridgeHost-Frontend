@@ -2,7 +2,7 @@ import React from 'react';
 import {useSelector } from 'react-redux'
 import homeimg from '../../../Images/hero.png'
 import { FaArrowUp } from "react-icons/fa";
-
+import '../userstyle.css'
 
 import Header from './HomeHead';
 import { Link } from 'react-router-dom';
@@ -11,48 +11,50 @@ const LandingPage = () => {
   const authentication_user=useSelector(state=>state.authentication_user)
   return (
     <>
-      {/* Start block */}
-      <section className="bg-white ">
-        <div className="grid max-w-screen-xl px-4  mx-auto lg:gap-8 xl:gap-0 lg:py-10 lg:grid-cols-12 lg:pt-5">
-          <div className="mr-auto place-self-center lg:col-span-7">
-    
+     
+     <section className="bg-white">
+      <div className="grid max-w-screen-xl px-4 mx-auto lg:gap-8 xl:gap-0 lg:py-10 lg:grid-cols-12 lg:pt-5">
+        <div className="mr-auto place-self-center lg:col-span-7">
 
-            <Header/>
-          
-      <div className='mt-3'>
-        { authentication_user.isAuthenticated ?(
-            <div>
-              <span style={{width:160}} className="flex mt-10 bg-violet-600 text-white items-center justify-center  px-2 py-2 text-sm font-medium text-center rounded-lg sm:w-auto hover:bg-violet-700 ">
-                  <span className='text-lg'>Enroll Now </span>
-                  <FaArrowUp className='animate-bounce ml-3 text-xl text-bold text-white'/>
-              </span>
-            </div>):
-            (
-            <div>
-              <Link to='login'>
-              <span style={{width:250}} className="flex mt-10 bg-violet-500 text-white items-center justify-center  px-1 py-2 text-sm font-medium text-center rounded-lg sm:w-auto hover:bg-violet-700 ">
-                  <span className='text-lg'>Get your Account now!! </span>
-              </span>
-              </Link>
-            </div>
+          <Header/>
+
+          <div className="mt-3 home-button">
+            {authentication_user.isAuthenticated ? (
+              <div>
+                <span
+                  style={{ width: 160 }}
+                  className="home-button-text flex mt-10 bg-violet-600 text-white items-center justify-center px-2 py-2 text-sm font-medium text-center rounded-lg sm:w-auto hover:bg-violet-700"
+                >
+                  <span className="text-lg">Enroll Now</span>
+                  <FaArrowUp className="animate-bounce ml-3 text-xl font-bold text-white" />
+                </span>
+              </div>
+            ) : (
+              <div>
+                <Link to="login">
+                  <span
+                    style={{ width: 250 }}
+                    className="flex mt-10 bg-violet-500 text-white items-center justify-center px-1 py-2 text-sm font-medium text-center rounded-lg sm:w-auto hover:bg-violet-700"
+                  >
+                    <span className="text-lg">Get your Account now!!</span>
+                  </span>
+                </Link>
+              </div>
             )}
-      </div>
-
-
-
-
-          </div>
-          <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-
-            <img src={homeimg} alt='img'/>
           </div>
         </div>
-      </section>
+
+        <div className="mt-10 sm:mt-0 lg:mt-0 lg:col-span-5 lg:flex ml-2 lg:ml-0">
+          <img src={homeimg} alt="img" className="w-full h-auto object-cover homeimg-shift-right"/>
+        </div>
+      </div>
+    </section>
 
 
 
 
-      <section className="bg-white">
+
+      <section className="bg-white hidden lg:mt-0 lg:col-span-5 lg:flex">
         <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-16">
           <div className="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
            
