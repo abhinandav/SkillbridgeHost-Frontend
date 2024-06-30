@@ -3,8 +3,13 @@
 
 @media (max-width: 640px) {
 
+
+    /* Home page */
+
     .home-head{
         margin-top: 30px;
+        margin-left: 5px;
+
     }
 
     .home-button{
@@ -29,5 +34,9 @@
     .homeimg-shift-right {
       margin-left: 10px; /* Adjust the value as needed */
     }
+
+    /* Login Page */
+
+
   }
   
