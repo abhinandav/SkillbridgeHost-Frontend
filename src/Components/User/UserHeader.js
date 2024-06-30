@@ -72,12 +72,10 @@ const UserHeader = () => {
               <div className="hidden sm:flex sm:items-center mr-5">
                 {(authentication_user.isAuthenticated && !authentication_user.isAdmin && !authentication_user.instructor) &&
                   <>
-                    <Link className="nav-link" to='/cart'>
-                      <span className="text-gray-800 text-sm font-semibold hover:text-orange-500 mr-4">Cart</span>
+                    <Link className="nav-link" to='/profile'>
+                      <span className="text-gray-800 text-sm font-semibold hover:text-orange-500 mr-4">Profile</span>
                     </Link>
-                    <Link className="nav-link" to='/wishlist'>
-                      <span className="text-gray-800 text-sm font-semibold hover:text-orange-500 mr-4">Wishlist</span>
-                    </Link>
+              
                   </>
                 }
 

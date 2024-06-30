@@ -124,77 +124,88 @@ function UserHome() {
       </div>
 
       <div>
-        <div className="inline-block rounded-lg bg-blue-600 p-3 text-white">
+        <div className="inline-block rounded-lg bg-orange-600 p-3 text-white">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
         </div>
 
         <div>
-          <h1 className="text-xl font-semibold text-gray-700 dark:text-white">What are your opening hours?</h1>
+          <h1 className="text-xl font-semibold text-gray-700 text-black">What are your opening hours?</h1>
 
-          <p className="mt-2 text-sm text-gray-500 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.</p>
+          <p className="mt-2 text-sm text-gray-500 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.</p>
         </div>
       </div>
 
       <div>
-        <div className="inline-block rounded-lg bg-blue-600 p-3 text-white">
+        <div className="inline-block rounded-lg bg-orange-600 p-3 text-white">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
         </div>
 
         <div>
-          <h1 className="text-xl font-semibold text-gray-700 dark:text-white">Do I need a referral?</h1>
+          <h1 className="text-xl font-semibold text-gray-700 text-black">Do I need a referral?</h1>
 
-          <p className="mt-2 text-sm text-gray-500 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.</p>
+          <p className="mt-2 text-sm text-gray-500 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.</p>
         </div>
       </div>
 
       <div>
-        <div className="inline-block rounded-lg bg-blue-600 p-3 text-white">
+        <div className="inline-block rounded-lg bg-orange-600 p-3 text-white">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
         </div>
 
         <div>
-          <h1 className="text-xl font-semibold text-gray-700 dark:text-white">Is the cost of the appointment covered by private health insurance?</h1>
+          <h1 className="text-xl font-semibold text-gray-700 text-black">Is the cost of the appointment covered by private health insurance?</h1>
 
-          <p className="mt-2 text-sm text-gray-500 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.</p>
+          <p className="mt-2 text-sm text-gray-500 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.</p>
         </div>
       </div>
 
       <div>
-        <div className="inline-block rounded-lg bg-blue-600 p-3 text-white">
+        <div className="inline-block rounded-lg bg-orange-600 p-3 text-white">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
         </div>
 
         <div>
-          <h1 className="text-xl font-semibold text-gray-700 dark:text-white">What is your cancellation policy?</h1>
+          <h1 className="text-xl font-semibold text-gray-700 text-black">What is your cancellation policy?</h1>
 
-          <p className="mt-2 text-sm text-gray-500 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.</p>
+          <p className="mt-2 text-sm text-gray-500 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.</p>
         </div>
       </div>
 
       <div>
-        <div className="inline-block rounded-lg bg-blue-600 p-3 text-white">
+        <div className="inline-block rounded-lg bg-orange-600 p-3 text-white">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
         </div>
 
         <div>
-          <h1 className="text-xl font-semibold text-gray-700 dark:text-white">What are the parking and public transport options?</h1>
+          <h1 className="text-xl font-semibold text-gray-700 text-black">What are the parking and public transport options?</h1>
 
-          <p className="mt-2 text-sm text-gray-500 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.</p>
+          <p className="mt-2 text-sm text-gray-500 text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident placeat, consequatur eveniet veritatis quos dignissimos beatae dolores exercitationem laboriosam officia magnam atque blanditiis illum doloremque magni ex corrupti tempora quis.</p>
         </div>
       </div>
     </div>
   </div>
     </section>
+
+    <div className=" w-full bg-indigo-600 shadow-xl shadow-indigo-200 py-10 px-20 flex justify-between items-center hide-on-mobile">
+        <p className="text-white">
+          <span className="text-4xl font-medium">Still Confused ?</span>
+          <br />
+          <span className="text-lg">Book For Free Career Consultation Today!</span>
+        </p>
+        <button className="px-5 py-3 font-medium text-slate-700 shadow-xl hover:bg-white duration-150 bg-yellow-400">
+          BOOK AN APPOINTMENT
+        </button>
+      </div>
 
 
 
