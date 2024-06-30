@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Lottie from 'react-lottie';
 import loadingAnimation from '../../../Images/loading animation2.json';
 import Testimonial from '../LoginTestimonial';
+import '../../User/userstyle.css'
 
 
 const UserLogin = () => {
@@ -134,37 +135,35 @@ const UserLogin = () => {
     },
   };
 
-
   return (
     <div
-      className="px-3  border-t border-b  bg-opacity-40"
+      className="px-3 border-t border-b bg-opacity-40"
       style={{
         backgroundImage: "url('https://www.toptal.com/designers/subtlepatterns/uploads/dot-grid.png')",
       }}
     >
-
-      <div className="flex -mt-2 px-10 py-5">
+      <div className="login-card-width flex -mt-2 px-10 py-5 ">
         {loading && (
           <div className="fixed inset-0 flex items-center justify-center bg-white bg-opacity-75 z-50">
             <Lottie options={defaultOptions} height={300} width={400} className="p-3 m-2" />
           </div>
         )}
 
-        <div className="hidden lg:flex w-full lg:w-1/2 login_img_section justify-around items-center">
+        <div className="hidden lg:flex w-full lg:w-1/2 login_img_section justify-around items-center hide-on-mobile">
           <div className="py-8 white">
             <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-            <Testimonial/>
+              <Testimonial />
             </div>
           </div>
         </div>
 
-        <div className="mt-20 pt-10 flex w-full lg:w-1/2 justify-center bg-white space-y-8">
+        <div className="login-card mt-20 pt-10 flex w-full lg:w-1/2 justify-center space-y-8">
           <div className="w-full px-8 md:px-32 lg:px-24">
-            <form method='post' onSubmit={handleLoginSubmit} className="bg-white rounded-md shadow-2xl p-5">
+            <form method="login-card-width post" onSubmit={handleLoginSubmit} className="bg-white rounded-md shadow-2xl p-5">
               <h1 className="text-gray-800 font-bold text-2xl mb-1">Hello Again!</h1>
               <p className="text-sm font-normal text-gray-600 mb-8">Welcome Back</p>
 
-              <div className='mb-5'>
+              <div className="mb-5">
                 <div className="flex items-center border-2 mb-2 py-2 px-3 rounded-2xl">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
@@ -174,14 +173,16 @@ const UserLogin = () => {
                 {emailError && <span className="text-md text-red-800 mt-1 mb-5">{emailError}</span>}
               </div>
 
-              <div className="flex items-center border-2 mb-4 py-2 px-3 rounded-2xl ">
+              <div className="flex items-center border-2 mb-4 py-2 px-3 rounded-2xl">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
                   <path fillRule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clipRule="evenodd" />
                 </svg>
 
                 <input
                   className="pl-4 w-full outline-none border-none"
-                  name="password" id="password" placeholder="Password"
+                  name="password"
+                  id="password"
+                  placeholder="Password"
                   type={showPassword ? 'text' : 'password'}
                 />
 
@@ -232,33 +233,31 @@ const UserLogin = () => {
 
               {passwordError ? (
                 <>
-                  {passwordError && <span className="text-md text-red-800 ">{passwordError}</span>}
+                  {passwordError && <span className="text-md text-red-800">{passwordError}</span>}
                 </>
               ) : (
                 <>
-                  {loginError && <span className="text-md text-red-800 ">{loginError}</span>}
+                  {loginError && <span className="text-md text-red-800">{loginError}</span>}
                 </>
               )}
 
               <button type="submit" className="block w-full bg-orange-600 mt-5 py-2 rounded-2xl hover:bg-orange-700 hover:-translate-y-1 transition-all duration-500 text-white font-semibold mb-2">Login</button>
 
-              <div className="flex justify-between mt-4">
-                <Link className='nav-link' to='/fpemail'>
-                  <span className="text-sm ml-2 hover:text-blue-500 cursor-pointer hover:-translate-y-1 duration-500 transition-all">Forgot Password ?</span>
+              <div className="login-card-last-text  flex justify-between mt-4">
+                <Link className="nav-link" to="/fpemail">
+                  <span className="login-card-last-text text-blue-500 text-sm ml-2 hover:text-blue-500 cursor-pointer hover:-translate-y-1 duration-500 transition-all">Forgot Password ?</span>
                 </Link>
-                <Link className='nav-link' to='/signup'>
-                  <span className="text-sm ml-2 hover:text-blue-500 cursor-pointer hover:-translate-y-1 duration-500 transition-all">Don't have an account yet?</span>
+                <Link className="nav-link" to="/signup">
+                  <span className=" login-card-last-text text-blue-500 text-sm ml-2 hover:text-blue-500 cursor-pointer hover:-translate-y-1 duration-500 transition-all">Don't have an account yet?</span>
                 </Link>
               </div>
-              <div className='mt-5'>
-
-              </div>
+              <div className="mt-5"></div>
             </form>
           </div>
         </div>
       </div>
 
-      <div className="w-full bg-indigo-600 shadow-xl shadow-indigo-200 py-10 px-20 flex justify-between items-center">
+      <div className="hidden w-full bg-indigo-600 shadow-xl shadow-indigo-200 py-10 px-20 flex justify-between items-center hide-on-mobile">
         <p className="text-white">
           <span className="text-4xl font-medium">Still Confused ?</span>
           <br />
@@ -273,6 +272,3 @@ const UserLogin = () => {
 };
 
 export default UserLogin;
-
-
-

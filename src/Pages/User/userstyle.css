@@ -36,7 +36,31 @@
     }
 
     /* Login Page */
+    
+    .hide-on-mobile {
+        display: none;
+      }
+    
+      .login-card {
+        width: 180% !important;
+        margin-top: 50px !important;
+        margin-bottom: 100px !important;
+        padding-top: 0 !important;
+      }
+      .login-card-width{
+        padding: 0;
+        margin: 0;
+      }
+      
+      .login-card-last-text{
+        width: 100%;
+        display: block;
+        margin-top: 15px;
+      }
 
 
-  }
-  
+    }
+
+
+
+    
